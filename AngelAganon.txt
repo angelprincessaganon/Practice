@@ -1,0 +1,26 @@
+import java.util.*;
+
+public class PersonalInfo{
+	public static void main(String args[]){
+
+         String order;
+	 int quantity = 0;
+
+	Scanner input = new Scanner(System.in);
+       
+                System.out.println("> am am - 45PHP <        > stick o - 55PHP <");
+		System.out.println("> mek mek - 30PHP <                > isaw - 40PHP <");
+		System.out.println("");
+                
+	System.out.print("Enter Order: ");
+	order = input.next();
+	System.out.print("Enter Quantity: ");
+        int price = 0;
+        double total = quantity * price;
+	quantity = input.nextInt();
+        
+
+}
+}
+
+ 
